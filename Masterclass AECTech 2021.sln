@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Masterclass.Revit.SharedProject", "Masterclass.Revit.SharedProject\Masterclass.Revit.SharedProject.shproj", "{AF82C8D7-11F5-4F1F-BDA1-73F2849C65CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Masterclass.Revit.2022", "Masterclass.Revit.2022\Masterclass.Revit.2022.csproj", "{B9AD60B8-AC19-4A92-862E-DE14B76A7511}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Masterclass.Revit.2021", "Masterclass.Revit.2021\Masterclass.Revit.2021.csproj", "{E381F298-D0AB-4C28-A765-B1FD8F8DD0A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution Files", "{3E92F84F-D9E9-48BD-B8C5-3752FCE5056B}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9AD60B8-AC19-4A92-862E-DE14B76A7511}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9AD60B8-AC19-4A92-862E-DE14B76A7511}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9AD60B8-AC19-4A92-862E-DE14B76A7511}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9AD60B8-AC19-4A92-862E-DE14B76A7511}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E381F298-D0AB-4C28-A765-B1FD8F8DD0A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E381F298-D0AB-4C28-A765-B1FD8F8DD0A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E381F298-D0AB-4C28-A765-B1FD8F8DD0A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E381F298-D0AB-4C28-A765-B1FD8F8DD0A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52AE19B1-6F61-425A-90D6-8BF68CFE06FA}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Masterclass.Revit.SharedProject\Masterclass.Revit.SharedProject.projitems*{af82c8d7-11f5-4f1f-bda1-73f2849c65cb}*SharedItemsImports = 13
+		Masterclass.Revit.SharedProject\Masterclass.Revit.SharedProject.projitems*{b9ad60b8-ac19-4a92-862e-de14b76a7511}*SharedItemsImports = 4
+		Masterclass.Revit.SharedProject\Masterclass.Revit.SharedProject.projitems*{e381f298-d0ab-4c28-a765-b1fd8f8dd0a9}*SharedItemsImports = 4
+	EndGlobalSection
+EndGlobal

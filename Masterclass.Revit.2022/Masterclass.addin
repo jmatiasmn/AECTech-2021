@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+	<AddIn Type="Application">
+		<Name>Masterclass</Name>
+		<Assembly>Masterclass\Masterclass.Revit.2022.dll</Assembly>
+		<AddInId>A35904BA-E7D1-4B7E-BAF1-AB17072E253D</AddInId>
+		<FullClassName>Masterclass.Revit.AppCommand</FullClassName>
+		<VendorId>Bad Monkeys</VendorId>
+		<VendorDescription>I am Jhon Matthews</VendorDescription>
+	</AddIn>
+</RevitAddIns>
